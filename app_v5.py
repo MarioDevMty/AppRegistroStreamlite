@@ -231,7 +231,7 @@ if st.session_state.df_master is not None:
                 # NUEVO: PERSONALIZACIÓN DEL MENSAJE
                 st.markdown("**Mensaje para el Asesor:**")
                 asunto_base = st.text_input("Asunto del correo", value="Accesos QR - Torneo de Robótica")
-                mensaje_cuerpo = st.text_area("Cuerpo del correo", value="Estimado Coach,\n\nAdjunto a este correo encontrará los códigos QR de acceso para los integrantes de su equipo.\n\nFavor de distribuirlos.\n\nSaludos cordiales.", height=150)
+                mensaje_cuerpo = st.text_area("Cuerpo del correo", value="Estimado Coach,\n\nAdjunto a este correo encontrará los códigos QR de acceso para los integrantes de su equipo.\n\nEstos deberán ser presentados por sus alumnos en el momento de registrarse.\n\nFavor de distribuirlos.\n\nEn el caso de faltar alguno o presentar problemas, por favor notificar al coordinador del torneo.\n\nSaludos cordiales.", height=150)
 
             if st.button("✈️ Enviar Correos Masivos", type="primary", use_container_width=True):
                 if not user or not pwd:
