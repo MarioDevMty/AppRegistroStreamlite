@@ -1,0 +1,59 @@
+package org.firstinspires.ftc.teamcode;
+
+
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.DcMotorEx;
+
+@TeleOp
+public class sistema_principal extends LinearOpMode {
+
+    DcMotor Mi;
+    DcMotor Md;
+
+    @Override
+    public void runOpMode() {
+        DcMotorEx motorDisparador;
+        motorDisparador = hardwareMap.get(DcMotorEx.class, "motorDisparador");
+
+        Mi = hardwareMap.get(DcMotor.class, "Mi");
+        Md = hardwareMap.get(DcMotor.class, "Md");
+        Md.setDirection(DcMotor.Direction.REVERSE);
+        waitForStart();
+
+        Md.setDirection(DcMotor.Direction.REVERSE);
+        motorDisparador.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
+        motorDisparador.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        motorDisparador.setDirection(DcMotor.Direction.REVERSE);
+
+
+        while (opModeIsActive()) {
+
+            double avanzar = -gamepad1.left_stick_y;
+            double girar = gamepad1.left_stick_x;
+
+            double potenciaIzquierda = avanzar + girar;
+            double potenciaDerecha = avanzar - girar;
+
+            Mi.setPower(potenciaIzquierda);
+            Md.setPower(potenciaDerecha);
+
+            telemetry.addData("Mi", potenciaIzquierda);
+            telemetry.addData("Md", potenciaDerecha);
+            telemetry.update();
+        }
+
+
+        while (opModeIsActive()) {
+            if (gamepad1.a) {
+                motorDisparador.setPower(1.0);
+            } else {
+                motorDisparador.setPower(0.0);
+            }
+        }
+
+        telemetry.addData("poder motor", motorDisparador.getPower());
+        telemetry.update();
+    }
+}

@@ -1,0 +1,68 @@
+('C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+ 'UANL\\AppRegistroStreamlite\\build\\Sistema_Torneos_UANL\\Sistema_Torneos_UANL.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\build\\Sistema_Torneos_UANL\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\build\\Sistema_Torneos_UANL\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\build\\Sistema_Torneos_UANL\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\build\\Sistema_Torneos_UANL\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\build\\Sistema_Torneos_UANL\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\build\\Sistema_Torneos_UANL\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('run_app',
+   'C:\\Users\\mbalderrabano\\Desktop\\Registro Automatico '
+   'UANL\\AppRegistroStreamlite\\run_app.py',
+   'PYSOURCE')],
+ 'python314.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
